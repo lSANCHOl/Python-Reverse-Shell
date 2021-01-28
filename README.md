@@ -6,6 +6,7 @@ USAGE:
 2. run reverse_shell.py on the target machine and wait 20 seconds for timeout to finsish
 
 NOTES:
+
 -This shell shoud be converted into a .exe file with pyinstaller for the best results. As it is primarily designed fror windows10.
 
 -This shell includes persistence. Meaning when the reverse_shell.py is ran for the first time it will copy the shell to a hidden location rename it to
