@@ -10,5 +10,5 @@ NOTES:
 - reverse_shell.py shoud be converted into a .exe file with pyinstaller for the best results. As it is primarily designed fror windows10.
 
 - This shell includes persistence. Meaning when the reverse_shell.py is ran for the first time it will copy the shell to a hidden location rename it to
- win32.exe and add to this to the registry. resulting in it being run when the PC is turned on, It will try to connect to the host machine every 20 seconds 
+ win32.exe and add to this to the registry. Resulting in it being run when the PC is turned on, It will try to connect to the host machine every 20 seconds 
  until it finally connects then once disconnected the PC must be turned off and on again for it to try and connect again.
